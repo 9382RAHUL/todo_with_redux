@@ -1,0 +1,68 @@
+.header {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 23px;
+
+
+
+}
+
+.input {
+
+    margin-right: 12px;
+    width: 550px;
+    background: #000;
+    /* outline: none; */
+    height: 46px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.btn {
+    padding: 10px 40px;
+    /* border: 3px solid yellowgreen; */
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #000;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        text-align: center;
+    }
+
+    .input {
+        width: 250px;
+        margin-left: 30px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        text-align: center;
+
+    }
+
+    .input {
+        width: 190px;
+
+
+    }
+
+
+}
